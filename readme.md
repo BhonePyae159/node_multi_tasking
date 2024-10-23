@@ -16,9 +16,3 @@ This is a multi-threaded Node.js application that processes data from a MySQL da
 - Node.js (version 14 or higher)
 - MySQL database
 - Docker (for containerization)
-
-## Installation
-``bash
-git clone https://github.com/BhonePyae159/node_multi_tasking.git
-
-
