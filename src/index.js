@@ -26,7 +26,7 @@ const fetchRows = (limit, offset) => {
 // Function to create and assign jobs to workers
 const createWorker = (taskData) => {
     return new Promise((resolve, reject) => {
-        const worker = new Worker('./worker.js', {
+        const worker = new Worker('./src/worker.js', {
             workerData: {
                 task: taskData,  // Correctly sending taskData as part of workerData
                 workerId: currentWorkerId // Worker ID from the counter
