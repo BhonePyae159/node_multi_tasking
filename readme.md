@@ -82,5 +82,3 @@ Now your database should be populated with random user data!
 - Make sure to have the required permissions to create tables and insert data into the database.
 
 ---
-
-Feel free to modify any part of this section as needed!
